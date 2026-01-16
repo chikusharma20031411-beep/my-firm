@@ -35,6 +35,10 @@ nav { display: flex; justify-content: space-between; padding: 20px 50px; backgro
     box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
     z-index: 10;
   }
+/* Slowly rotate the grid when hovering over the container */
+  .container:hover .grid {
+    transform: rotateX(10deg) rotateY(-10deg) rotateZ(0deg);
+  }
 
 .price {
     font-size: 1.2rem;
@@ -53,6 +57,7 @@ header { padding: 100px 50px; text-align: center; background: #f4f7f6; }
 .card { padding: 30px; border: 1px solid #ddd; border-radius: 8px; width: 25%; text-align: center; transition: 0.3s; }
 
 .card:hover { transform: translateY(-10px); border-color: #007bff; }
+
 
 
 
