@@ -1,14 +1,6 @@
 body { font-family: 'Segoe UI', sans-serif; margin: 0; color: #333; }
 nav { display: flex; justify-content: space-between; padding: 20px 50px; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
 /* General Styling */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 20px;
-}
-
-/* Container for all cards */
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -75,3 +67,4 @@ header { padding: 100px 50px; text-align: center; background: #f4f7f6; }
 .card { padding: 30px; border: 1px solid #ddd; border-radius: 8px; width: 25%; text-align: center; transition: 0.3s; }
 
 .card:hover { transform: translateY(-10px); border-color: #007bff; }
+
