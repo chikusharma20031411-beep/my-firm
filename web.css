@@ -1,5 +1,71 @@
 body { font-family: 'Segoe UI', sans-serif; margin: 0; color: #333; }
 nav { display: flex; justify-content: space-between; padding: 20px 50px; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for all cards */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* The Card Style */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Isse image stretch nahi hogi */
+    border-bottom: 1px solid #eee;
+}
+
+/* Info Section */
+.info {
+    padding: 15px;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Optional: Add a Button */
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #219150;
+}
 .logo { font-size: 24px; font-weight: bold; }
 .logo span { color: #007bff; }
 ul { list-style: none; display: flex; align-items: center; }
@@ -7,4 +73,5 @@ ul li { margin-left: 20px; }
 header { padding: 100px 50px; text-align: center; background: #f4f7f6; }
 .grid { display: flex; justify-content: space-around; padding: 50px; }
 .card { padding: 30px; border: 1px solid #ddd; border-radius: 8px; width: 25%; text-align: center; transition: 0.3s; }
+
 .card:hover { transform: translateY(-10px); border-color: #007bff; }
