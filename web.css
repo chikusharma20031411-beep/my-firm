@@ -59,21 +59,6 @@ nav { display: flex; justify-content: space-between; padding: 20px 50px; backgro
   font-family: sans-serif;
 }
 
-.service-card h3 {
-  font-size: 16px;
-  color: #333;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
-}
-
-.number-list p {
-  font-size: 18px;
-  font-weight: bold;
-  color: #0056b3; /* Blue color numbers ke liye */
-  margin: 5px 0;
-}
-
 .logo { font-size: 24px; font-weight: bold; }
 .logo span { color: #007bff; }
 ul { list-style: none; display: flex; align-items: center; }
@@ -83,6 +68,7 @@ header { padding: 100px 50px; text-align: center; background: #f4f7f6; }
 .card { padding: 30px; border: 1px solid #ddd; border-radius: 8px; width: 25%; text-align: center; transition: 0.3s; }
 
 .card:hover { transform: translateY(-10px); border-color: #007bff; }
+
 
 
 
